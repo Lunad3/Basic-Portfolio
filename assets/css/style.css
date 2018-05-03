@@ -15,7 +15,7 @@ body
 #navbar h1
     {
         margin: auto;
-        margin-left: 50px;
+        margin-left: 15%;
         float: left;
         color: #f2f2f2;
         background-color:green;
@@ -37,8 +37,8 @@ body
 
 #content
     {
-        margin: 40px 20px;
-        padding: 10px;
+        margin: 5% 15%;
+        padding: 10px 20px;
         overflow:hidden;
         display:block;
         background-color: white;
@@ -59,9 +59,10 @@ img
 
 #footer
     {
+        height: 50px;
         width: 100%;
-        position: absolute;
-        bottom: 0px;
+        position: fixed;
+        bottom: 0;
         border-style: solid;
         border-width: 5px 0px 0px 0px;
         border-color: green;
@@ -71,7 +72,7 @@ img
     }
 
 #footer p
-    {
-        color: lightgrey;
+    {   
+        color: white; 
         text-align: center;
     }
