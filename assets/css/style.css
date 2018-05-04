@@ -1,11 +1,16 @@
 body    
     {
-        margin: 0;
-        background-color: lightgrey;
+        margin: 0%;
+        padding: 0%;
+        height: 100%;
+        width: 100%;
+        background-color: white;
     }
 
 #navbar
-    {
+    {   
+        padding: 0%;
+        height: 10%;
         overflow:hidden;
         display:block;
         background-color:white;
@@ -14,15 +19,15 @@ body
 
 #navbar h1
     {
-        margin: auto;
-        margin-left: 15%;
+        width:fit-content;
+        margin: 0% 0% 0% 10%;
         float: left;
         color: #f2f2f2;
         background-color:green;
         text-align: center;
-        padding: 14px 16px;
+        padding: 2% 3%;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 100%;
     }
 
 #navbar a
@@ -30,17 +35,30 @@ body
         float: right;
         color: lightgrey;
         text-align: center;
-        padding: 14px 16px;
+        padding: 2%px 3%px;
+        margin: 0% 3%;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 100%px;
     }
+
+#wraper
+    {
+        position:relative;
+        padding: 5% 0%;
+        margin : 0%;
+        display:block;
+        height: -webkit-fill-available;
+        background-color: lightgrey;
+    }
+
+
 
 #content
     {
-        margin: 5% 15%;
-        padding: 10px 20px;
+        position: relative;
+        margin: 0% 15%;
+        padding: 2% 5%;
         overflow:hidden;
-        display:block;
         background-color: white;
 
     }
@@ -48,6 +66,7 @@ body
     {
         color: green;
     }
+
 img
     {
         margin: 15px;
@@ -59,12 +78,11 @@ img
 
 #footer
     {
-        height: 50px;
-        width: 100%;
-        position: fixed;
+        height: 10%;
+        position: relative;
         bottom: 0;
         border-style: solid;
-        border-width: 5px 0px 0px 0px;
+        border-width: 1px 0px 0px 0px;
         border-color: green;
         background-color:grey;
         overflow:hidden;
